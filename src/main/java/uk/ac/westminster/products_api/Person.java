@@ -1,10 +1,9 @@
 package uk.ac.westminster.products_api;
 
 public class Person {
-
+//    object field
     private String name;
     private String email;
-
 
     public Person(String name, String email) {
         this.name = name;
@@ -12,8 +11,9 @@ public class Person {
 
 
     }
-
+// getter returns the value stored in the email field
     public String getName() {
+
         return name;
     }
 
